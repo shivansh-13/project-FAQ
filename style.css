@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(to bottom ,hsl(273, 75%, 66%) , hsl(240, 73%, 65%) ) no-repeat 0 0 / cover;
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    margin: 0;
+    padding:0;
+}
+
+
+
+#mainbox{
+
+    justify-content: center;
+    align-items: center;
+    height: 56vh;
+    width: 54vw;
+    margin-left: 23vw;
+    margin-right: 23vw;
+    margin-top: 22vh;
+    margin-bottom: 22vh;
+    background-color: #f6f5f7;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 80% 20%; 
+    overflow: hidden;
+    -webkit-box-shadow: 10px 25px 60px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 25px 60px -25px rgba(0,0,0,0.75);
+    box-shadow: 10px 25px 60px -25px rgba(0,0,0,0.75);
+    background-image: url(images/bg-pattern-desktop.svg) ;
+    background-position-x: -7.5cm ;
+    background-position-y: -7cm;
+    background-repeat:no-repeat;
+    background-size: 600px 900px;
+
+}
+
+
+
+#lady{
+    zoom: 0.75;
+    margin: 1cm;
+    margin-left: -1.5cm;
+    margin-top: 3cm;
+}
+
+.orangebox{
+
+    margin-left: 16.5vw;
+    margin-top: 18vh;
+    position:absolute;
+    z-index: 4;
+    padding: 0;
+
+}
+
+
+hr{
+    opacity: 0.5;
+}
+
+#rhs{
+    margin-top: 2cm;
+    padding: 2cm ;
+
+}
+#que1{
+    opacity: 0.7;
+    padding: 5px;
+    margin: o auto;
+    max-height: 20px;
+     overflow: hidden; 
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+#que1.open{
+
+    max-height: 90px;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+
+}
+
+
+
+#quel1.bold,#quel2.bold,#quel3.bold,#quel4.bold,#quel5.bold{
+
+    margin: 0;
+    padding: 0;
+    font-weight:700;
+    transition: font-weight 0.7s;
+    opacity: 1 !important;
+
+}
+
+    
+#que2{
+    opacity: 0.7;
+    padding: 5px;
+    margin: o auto;
+    max-height: 20px;
+    overflow: hidden; 
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+#que2.open{
+
+    max-height: 95px;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+
+
+#que3{
+    opacity: 0.7;
+    padding: 5px;
+    margin: o auto;
+    max-height: 20px;
+    overflow: hidden; 
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+#que3.open{
+
+    max-height: 100px;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+
+
+#que4{
+    opacity: 0.7;
+    padding: 5px;
+    margin: o auto;
+    max-height: 20px;
+    overflow: hidden;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+#que4.open{
+
+    max-height: 95px;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+
+
+
+#que5{
+    opacity: 0.7;
+    padding: 5px;
+    margin: o auto;
+    max-height: 20px;
+    overflow: hidden;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+#que5.open{
+
+    max-height: 95px;
+    -webkit-transition : max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    position: relative;
+}
+
+a#more3,a#more4,a#more1,a#more2,a#more5{
+    position: absolute;
+    right: 3px;
+    
+}
+
+#que1.open a{
+    transform:scaleY(-1);
+}
+#que2.open a{
+    transform:scaleY(-1);
+}
+#que3.open a{
+    transform:scaleY(-1);
+}
+#que4.open a{
+    transform:scaleY(-1);
+}
+#que5.open a{
+    transform:scaleY(-1);
+}
